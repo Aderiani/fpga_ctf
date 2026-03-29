@@ -9,6 +9,7 @@ entity tpm is
 	);
 end tpm;
 
+
 architecture Behavioral of tpm is
     signal Key : STD_LOGIC_VECTOR(15 downto 0);
 	signal Encrypted : STD_LOGIC_VECTOR(15 downto 0);
